@@ -97,9 +97,11 @@ img {
     max-width: 80px;
     width: 100%;
 }
-.img{
+
+.img {
     display: flex;
 }
+
 @media screen and (max-width: 580px) {
     .form {
         flex-direction: column;
@@ -118,5 +120,14 @@ img {
     input {
         width: 100%;
         border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    img {
+        max-width: 20px;
+        width: 100%;
     }
 }
