@@ -100,7 +100,7 @@ img {
 .img{
     display: flex;
 }
-@media(width < 580px) {
+@media screen and (max-width: 580px) {
     .form {
         flex-direction: column;
         justify-content: center;
