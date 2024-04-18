@@ -1,0 +1,17 @@
+Algoritmo da Cifra de César - Deslocamento de 3 casas: Este é um método de criptografia que envolve a substituição de cada letra em um texto por outra letra que está um número fixo de posições à frente no alfabeto. Neste caso, estamos usando um deslocamento de 3 casas.
+
+Input de texto: Este é o texto que você deseja criptografar. Por exemplo, se você quiser criptografar a palavra “Bala”, “Bala” seria o seu input de texto.
+
+Array com alfabeto de a-z: Este é um array que contém todas as letras do alfabeto em ordem. É usado como uma referência para determinar o deslocamento de cada letra.
+
+Loop para cada caractere do input: Criamos um loop que percorre cada caractere do texto de entrada. Para cada caractere, realizamos as seguintes ações:
+
+Pegue a letra atual do input: Esta é a letra que estamos atualmente tentando criptografar.
+
+Descubra em qual índice do alfabeto a letra atual do input está: Aqui, procuramos a letra atual no nosso array de alfabeto e obtemos o seu índice.
+
+Calcule o novo índice somando + 3: Adicionamos 3 ao índice atual para obter o novo índice. Isso irá “deslocar” a letra 3 posições para a frente no alfabeto.
+
+Adicione o caractere do novo índice a uma variável: Finalmente, pegamos a letra no novo índice do nosso array de alfabeto e a adicionamos a uma variável que está armazenando nosso texto criptografado.
+
+Caracteres não presentes no alfabeto: Se o caractere atual do input não estiver presente no alfabeto, ele será adicionado diretamente à variável do texto criptografado sem qualquer alteração.
